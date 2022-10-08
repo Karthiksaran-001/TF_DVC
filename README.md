@@ -23,4 +23,5 @@ touch requirements.txt setup.py .gitignore dvc.yaml params.yaml
 ```bash
 mkdir -p config/config.yaml
 mkdir -p src/utils/all_utils.py
-touch -p src/stage_01_save_data.py
+touch  src/stage_01_load_save_data.py
+```
