@@ -1,0 +1,10 @@
+stages:
+  get_data:
+    cmd: python src/stage_01_load_save_data.py --config=config/config.yaml
+    deps:
+      - src/stage_01_load_save_data.py
+      - src/utils/all_utils.py
+      - config/config.yaml
+    outs:
+      - data/cat
+      - data/dog
