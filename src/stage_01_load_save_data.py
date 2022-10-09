@@ -1,5 +1,4 @@
 from ast import arg
-from distutils.command.config import config
 from src.utils.all_utils import read_yaml   , create_directory
 import argparse
 import pandas as pd
@@ -8,10 +7,13 @@ from tqdm import tqdm
 import shutil ## Help to copy files
 import logging
 
-logging_str = "[%{asctime}s %{levelname}s]: %{module}s"
-logg_dir = "logs"
-create_directory([logg_dir])
-logging.basicConfig(filename= os.path.join(logg_dir , "runtime.log") , level=logging.INFO , format= logging_str , filemode="a")
+logging.basicConfig(
+    filename=os.path.join("logs", "running_logs.log"),
+    level=logging.INFO,
+    format="[%(asctime)s: %(levelname)s: %(module)s]: %(message)s",
+    filemode="a",
+)
+
 
 def copy_file(source_data_dir , local_data_dir):
     list_of_files = os.listdir(source_data_dir)
