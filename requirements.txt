@@ -6,3 +6,6 @@ matplotlib
 tqdm
 PyYAML
 boto3  ## for AWS S3 bucket
+
+## For Local packages
+-e .
