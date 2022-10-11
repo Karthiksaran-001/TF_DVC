@@ -5,3 +5,4 @@ BATCH_SIZE: 16 # default is 32
 EPOCHS: 3
 LEARNING_RATE: 0.001
 AUGMENTATION: True
+Classes: 2
