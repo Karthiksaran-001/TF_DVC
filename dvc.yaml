@@ -19,5 +19,5 @@ stages:
       - config/config.yaml
     outs:
       - artifacts/base_model/VGG16_base_model.h5
-      - base_model/Updated_VGG16_base_model.h5
+      - artifacts/base_model/Updated_VGG16_base_model.h5
   

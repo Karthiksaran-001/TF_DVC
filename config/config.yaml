@@ -1,6 +1,3 @@
-
-
-
 artifacts:
    artifacts_dir: artifacts
    Trained_model_dir:  model

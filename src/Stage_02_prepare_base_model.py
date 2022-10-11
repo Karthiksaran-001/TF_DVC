@@ -31,12 +31,12 @@ def prepare_base_model(config_path , params_path):
     full_model = prepare_final_layer(
         model,
         Class = params["Classes"],
-        freeze_all = False,
-        freeze_till = 1,
+        freeze_all = True,
+        freeze_till = None,
         learning_rate =params["LEARNING_RATE"],
     )
 
-    updated_base_model_path = os.path.join(base_model_dir , artifacts["Updated_Base_model_name"])
+    updated_base_model_path = os.path.join(Base_model_dir_path , artifacts["Updated_Base_model_name"])
 
     def _log_model_summary(full_model):
         with io.StringIO() as stream:
