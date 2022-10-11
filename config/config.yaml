@@ -4,7 +4,7 @@
 artifacts:
    artifacts_dir: artifacts
    Trained_model_dir:  model
-   Base_model-dir: base_model
+   Base_model_dir: base_model
    Base_model_name: VGG16_base_model.h5
    Updated_Base_model_name: Updated_VGG16_base_model.h5
    Checkpoint_Dir: Checkpoints
