@@ -4,6 +4,7 @@ pandas
 numpy 
 matplotlib
 tqdm
+joblib
 PyYAML
 boto3  ## for AWS S3 bucket
 
