@@ -98,8 +98,8 @@ stages:
       size: 45613388
       nfiles: 2001
     - path: src/stage_04_train_data.py
-      md5: 72be3e24354c083a3f7111fda5768d6f
-      size: 2775
+      md5: e6728fb7e55650e45f9f80d3b1c78b01
+      size: 2755
     - path: src/utils/all_utils.py
       md5: e4d7c3a803ae670decca0255a25e3ffc
       size: 1007
@@ -123,6 +123,6 @@ stages:
         - 3
     outs:
     - path: artifacts/model
-      md5: 3197e9e5d4d7fd4cb89d18bc8ce400ed.dir
-      size: 59132008
+      md5: 92c3b157f4082109c866f1c0f5553c6e.dir
+      size: 59134488
       nfiles: 1
